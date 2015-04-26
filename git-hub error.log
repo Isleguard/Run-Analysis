@@ -18,3 +18,18 @@ can't read "treediffs(6769b37dffa9060095b1368d88b4ad739a430bd5)": no such variab
     invoked from within
 "dorunq"
     ("after" script)
+****************    more info  ********************
+
+POST git-receive-pack (chunked)
+remote: warning: File UCI HAR Dataset/train/X_train.txt is 62.94 MB; this is larger than GitHub's recommended maximum file size of 50 MB[K
+remote: warning: File getdata_projectfiles_UCI HAR Dataset.zip is 59.66 MB; this is larger than GitHub's recommended maximum file size of 50 MB[K
+remote: warning: File train_and_test.csv is 64.28 MB; this is larger than GitHub's recommended maximum file size of 50 MB[K
+remote: error: GH001: Large files detected.[K
+remote: error: Trace: c24be552cc71fa047071d1e3a928165f[K
+remote: error: See http://git.io/iEPt8g for more information.[K
+remote: error: File backup-workspace.Rproj.user.RData is 125.86 MB; this exceeds GitHub's file size limit of 100 MB[K
+Pushing to https://github.com/Isleguard/Run-Analysis
+To https://github.com/Isleguard/Run-Analysis
+ ! [remote rejected] master -> master (pre-receive hook declined)
+error: failed to push some refs to 'https://github.com/Isleguard/Run-Analysis'
+
